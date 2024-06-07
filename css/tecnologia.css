@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-*{
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@ a {
     text-decoration: none; 
 }
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,13 +25,14 @@ a {
     background-color: white;
 }
 
-.navigation ul{
+.navigation ul {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
-.navigation ul li a{
-    color: #0c1f2d;
+
+.navigation ul li a {
+    color: #000000;
     font-size: 17px;
     font-weight: 500;
 }
@@ -84,6 +85,7 @@ body {
     background-color: #4c4e50;
     color: #fff;
     max-width: 900px;
+    margin-top: 40px;
     margin: 40px auto;
     border-radius: 15px;
 
@@ -102,12 +104,14 @@ li {
 
 footer {
     background-color: #0c1f2d;
-    padding: 1.25rem;
+    padding: 20px;
     width: 100%;
     text-align: center;
     color: white;
-}
+    position: absolute;
+    bottom: 0;
 
+}
 .container {
     position: relative;
     display: flex;
@@ -121,9 +125,4 @@ footer {
     height: auto;
 }
 
-@media only screen and (max-width: 768px) {
-    .footer-item {
-        flex-basis: 100%; /* Um item por linha em telas menores */
-    }
-}
 

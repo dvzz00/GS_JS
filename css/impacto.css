@@ -15,7 +15,7 @@ a {
 }
 
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,15 +23,16 @@ a {
     box-shadow: 0 0.1rem 0.5rem #0c1f2d;
     width: 100%;
     border: ridge;
+    background-color: white;
 }
-
-.navigation ul{
+.navigation ul {
     display: flex;
     align-items: center;
     gap: 5rem;
 }
-.navigation ul li a{
-    color: #0c1f2d;
+
+.navigation ul li a {
+    color: #000000;
     font-size: 17px;
     font-weight: 500;
 }
